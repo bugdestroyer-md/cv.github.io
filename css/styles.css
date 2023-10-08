@@ -138,27 +138,44 @@ hr {
     font-size: 12px;
     color: #ACB1C3;
 }
+.inbetween-block {
+    width: 100px;
+    margin-top: 59px;
+}
+.icon {
+    height: auto; 
+    margin-left: 28px;
+   
+}
+.line{
+    background-color: #2E2E48;
+    width: 2px;
+    margin-left: 43px;
+    height: 479px;
+}
+    
+.line.line-1 {
+    height: 190px;
+}
+
+.line.line-2 {
+    height: 392px;
+}
+
 .experience {
     margin-top: 64px;
-    margin-left: 32px;
+    margin-left: 30px;
     width: 752px;
     height: 510px;
     width: auto;
-
 }
-.experience h1 {
-    margin-left: 54px;
-}
-
 .experience-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 54px;
     max-width: 692px;
     height: 406px;
-    margin-top: 34px;
-    
+    margin-top: 30px; 
 }
 .experience-row {
     height: 78px;
@@ -216,14 +233,14 @@ hr {
 }
 
 .education h1 {
-    margin-left: 85px;
+    margin-left: 30px;
 }
 .education-wrapper {
    height: 165px;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin-left: 85px;
+   margin-left: 30px;
    max-width: 692px;
    margin-top: 30px;
 }
@@ -271,30 +288,25 @@ hr {
     color: #ACB1C3;
     font-size: 10px;
 }
-
 .tile-logo-image2 {
     background-image: url('https://www.dropbox.com/scl/fi/tyxchu8xqwvllsv9d7zda/ux-logo.png?dl=1');
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat; 
 }
-
 .tile-right-side {
     border-radius: 0px 10px 10px 0px;
 }
-
 .tile-logo-image3 {
     background-image: url('https://www.dropbox.com/scl/fi/5mqgk0xtkjlm2z5n0hflw/coursera-logo.png?dl=1');
     background-repeat: no-repeat;
 }
-
 .skills h1 {
-    margin-left: 85px;
+    margin-left: 30px;
 }
 .skills-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 85px;
+    margin-left: 30px;
     margin-top: 38px;
     max-width: 692px;
 }
@@ -322,7 +334,7 @@ hr {
 .skills-block-wrapper {
     display: flex;
     flex-direction: row;
-    margin-left: 85px;
+    margin-left: 30px;
     justify-content: space-between;
     max-width: 692px;
 }
@@ -347,19 +359,16 @@ hr {
 .block-left-top {
 border-radius: 10px 0px 0px 0px;
 }
-
 .block-left h4{
     font-size: 14px;
     color: #C696FC;
     text-align: center;
     margin-top: 20px;
 }
-
 .block-right {
     width: 100%;
     background-color:  #2E2E48; 
 }
-
 .skills-middle-block .block-right::before, .block-middle::before, .block-right-bottom::before  {
     content: "";
     height: 53px;
@@ -370,7 +379,6 @@ border-radius: 10px 0px 0px 0px;
     margin-top: 13px;
     position: absolute;
 }
-
 .block-right-top {
 border-radius: 0px 10px 0px 0px;
 }
@@ -428,19 +436,18 @@ border-radius: 0px 10px 0px 0px;
     font-size: 14px;
     color: #C696FC;
     margin-top: 10px;
-   
 }
 .tools {
     height: 461px;
 }
 .tools h1 {
-    margin-left: 85px;
+    margin-left: 30px;
     margin-top: 56px;
 }
 .tools-wrapper-top{
     height: 128px;
     max-width: 692px;
-    margin-left: 85px;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     column-gap: 8px;
@@ -469,7 +476,7 @@ border-radius: 0px 10px 0px 0px;
 .tools-wrapper-bottom{
     height: 128px;
     max-width: 692px;
-    margin-left: 85px;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     column-gap: 8px;
